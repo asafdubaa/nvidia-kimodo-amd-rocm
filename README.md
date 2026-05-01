@@ -145,8 +145,7 @@ start_kimodo_rocm.bat
 
 ## Notes
 
-- Do not copy ZLUDA DLLs into `venv-rocm`.
-- Do not mix this environment with the original `venv`.
+
 - The local text encoder is a quantized NF4 model, so bitsandbytes support matters even when PyTorch ROCm itself is working.
 - The `tools/rocm/rocminfo.bat` shim exists because bitsandbytes expects a `rocminfo` command on PATH. It reports `gfx1201` and wavefront size `32` for RX 9070 XT.
 
