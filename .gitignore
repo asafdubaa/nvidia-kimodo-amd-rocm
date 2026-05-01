@@ -1,0 +1,12 @@
+venv/
+venv-rocm/
+kimodo/
+KIMODO-Meta3_llm2vec_NF4/
+__pycache__/
+*.pyc
+*.pyo
+*.log
+*.dll
+*.exe
+node_modules/
+package-lock.json
